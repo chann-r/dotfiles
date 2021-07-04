@@ -25,4 +25,6 @@ source $SCRIPT_DIR/zsh/plugins.zsh
 source $SCRIPT_DIR/zsh/config.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+# ↓デフォルトの読み込み方
+# [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+source $SCRIPT_DIR/zsh/p10k.zsh
