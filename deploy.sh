@@ -1,7 +1,10 @@
-# 配置する設定ファイル
-dotfiles=(.zshrc)
+#!/bin/bash -e
 
-# 設定ファイルのシンボリックリンクをホームディレクトリ直下に作成する
-for file in "${dotfiles[@]}"; do
-        ln -svf $file ~/
+IGNORE_PATTERN="^\.(git|DS_Store)"
+
+echo "Create dotfile links."
+for dotfile in .??*; do
+    [[ $dotfile =~ $IGNORE_PATTERN ]] && continue
+    ln -snfv "$(pwd)/$dotfile" "$HOME/$dotfile"
 done
+echo "Success"
