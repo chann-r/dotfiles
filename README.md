@@ -15,3 +15,8 @@ cd dotfiles
 - change the font
 
 `iTerm2 → Preferences → Profiles → Text and set Font to MesloLGS NF`
+
+- TODO
+  * clipy
+  * shiftlt
+  * vimium
