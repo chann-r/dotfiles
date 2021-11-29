@@ -16,6 +16,11 @@ cd dotfiles
 
 `iTerm2 → Preferences → Profiles → Text and set Font to MesloLGS NF`
 
+- change the key
+
+`iTerm2 → Preferences → Profiles → Keys → Right Option → Esc+`
+
+
 - TODO
   * clipy
   
