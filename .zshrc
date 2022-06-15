@@ -28,3 +28,7 @@ source $SCRIPT_DIR/zsh/config.zsh
 # ↓デフォルトの読み込み方
 # [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 source $SCRIPT_DIR/zsh/p10k.zsh
+
+# Go environment
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin

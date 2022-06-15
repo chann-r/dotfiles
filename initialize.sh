@@ -14,5 +14,8 @@ wget https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20B
 wget https://github.com/Clipy/Clipy/releases/download/1.2.1/Clipy_1.2.1.dmg -P ~/Desktop/
 wget https://github.com/fikovnik/ShiftIt/releases/download/version-1.6.6/ShiftIt-1.6.6.zip -P ~/Desktop/
 
+## Goのインストールと設定
+brew install go
+
 ## 設定ファイルを設置
 ./iterm2/init.sh
